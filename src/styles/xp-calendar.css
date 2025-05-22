@@ -1,0 +1,42 @@
+/* src/styles/xp-calendar.css */
+
+.react-calendar {
+  border: 2px solid gray;
+  font-family: 'dotum', 'Gulim', sans-serif;
+  background: #f0f0f0;
+  box-shadow: 2px 2px 0 #d0d0d0;
+}
+
+.react-calendar__navigation {
+  background-color: #0a246a;
+  color: white;
+  font-weight: bold;
+  border-bottom: 2px solid #001f5c;
+  padding: 4px;
+}
+
+.react-calendar__tile {
+  background: white;
+  border: 1px solid #aaa;
+  margin: 2px;
+  padding: 4px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.react-calendar__tile:enabled:hover {
+  background: #c1d2ee;
+  border-color: #708ac7;
+}
+
+.react-calendar__tile--active {
+  background: #4a78c2;
+  color: white;
+  font-weight: bold;
+  border-color: #2e4a93;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: #b00;
+}
